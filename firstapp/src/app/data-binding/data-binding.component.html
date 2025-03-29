@@ -1,0 +1,18 @@
+<div class="container border border-primary">
+    <ul>
+        <li>One way Data Binding</li>
+        <ol>
+            <li>Interpolation</li>
+            <p>{{firstname}} {{lastname}} {{age}}</p>
+            <p>{{6+11}}</p>
+
+            <li>Property Binding</li>
+            <input type="text" [value]="firstname">
+            <input type="text" value="{{age}}"> <!--interpolation--> 
+
+            <li>Event Binding</li>
+            <button class="btn btn-primary" (dblclick)="showAlert()">Click</button>
+        </ol>
+        <li>Two way Data Binding</li>
+    </ul>
+</div>
