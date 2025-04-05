@@ -12,7 +12,11 @@
 
             <li>Event Binding</li>
             <button class="btn btn-primary" (dblclick)="showAlert()">Click</button>
+            <p [style.color] ="color">Style Binding</p>
+            <h1 [style.border] ="border">Hello</h1>
+            <h2 [style.background-color] ="background">background</h2>
         </ol>
         <li>Two way Data Binding</li>
+        <input type="text" [(ngModel)]="firstname">
     </ul>
 </div>
