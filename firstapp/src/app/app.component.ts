@@ -7,10 +7,11 @@ import { CategoryComponent } from './category/category.component';
 import { DataBindingComponent } from './data-binding/data-binding.component';
 import { AdditionComponent } from './addition/addition.component';
 import { PipesExamplesComponent } from './pipes-examples/pipes-examples.component';
+import { DirectivesExampleComponent } from './directives-example/directives-example.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, AboutComponent, ContactusComponent, ProductComponent,CategoryComponent,DataBindingComponent,AdditionComponent,PipesExamplesComponent],
+  imports: [RouterOutlet, AboutComponent, ContactusComponent, ProductComponent,CategoryComponent,DataBindingComponent,AdditionComponent,PipesExamplesComponent,DirectivesExampleComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

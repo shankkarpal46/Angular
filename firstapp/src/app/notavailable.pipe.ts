@@ -6,7 +6,12 @@ import { Pipe, PipeTransform } from '@angular/core';
 export class NotavailablePipe implements PipeTransform {
 
   transform(value: unknown, ...args: unknown[]): unknown {
-    return null;
+    if(value ==""){
+      return "NA"
+    }
+    else{
+      return value
+    }
   }
 
 }
