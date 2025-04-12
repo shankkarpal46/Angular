@@ -1,0 +1,12 @@
+<div class="container border border-primary">
+    <div [ngSwitch] = "requestStatus">
+        <h3 *ngSwitchCase = "'pending'">Request is pending.</h3>
+        <h3 *ngSwitchCase = "'approved'">Request has been approved.</h3>
+        <h3 *ngSwitchCase = "'rejected'">Request has been rejected.</h3>
+        <h3 *ngSwitchDefault="">Default Case</h3>
+    </div>
+
+    <button class="btn btn-warning m-3" (click)="changeStatus('pending')">Pending</button>
+    <button class="btn btn-success m-3" (click)="changeStatus('approved')">Approved</button>
+    <button class="btn btn-danger m-3" (click)="changeStatus('rejected')">Rejected</button>
+</div>

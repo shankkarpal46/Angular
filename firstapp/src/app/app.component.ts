@@ -8,10 +8,12 @@ import { DataBindingComponent } from './data-binding/data-binding.component';
 import { AdditionComponent } from './addition/addition.component';
 import { PipesExamplesComponent } from './pipes-examples/pipes-examples.component';
 import { DirectivesExampleComponent } from './directives-example/directives-example.component';
+import { SwitchexampleComponent } from './switchexample/switchexample.component';
+import { ParentComponent } from './parent/parent.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, AboutComponent, ContactusComponent, ProductComponent,CategoryComponent,DataBindingComponent,AdditionComponent,PipesExamplesComponent,DirectivesExampleComponent],
+  imports: [RouterOutlet, AboutComponent, ContactusComponent, ProductComponent,CategoryComponent,DataBindingComponent,AdditionComponent,PipesExamplesComponent,DirectivesExampleComponent,SwitchexampleComponent,ParentComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

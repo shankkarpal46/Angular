@@ -9,6 +9,7 @@ import { Component } from '@angular/core';
 })
 export class DirectivesExampleComponent {
   loggedIn:boolean = false
+  status:boolean = false
   subjects:string[] = ["HTML","CSS","JS","SQL"]
   name:string[]= ["Shankar","Arti","Mugeetha","Aishwariya"]
   students=[{firstname:"Shankar",lastname:"Pal",marks:90},{firstname:"Arti",lastname:"Lachure",marks:100},{firstname:"Mujeetha",lastname:"N",marks:92}]
