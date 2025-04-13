@@ -1,6 +1,7 @@
 <div class="container m-3 border border-dark">
     <p>Parent Component</p>
-    <app-child [receiveData]="parentData"></app-child>
+    <!-- <app-child [receiveData]="parentData"></app-child> -->
+    <app-child [receiveData]="parentData" (eventemitter)="recieveMessage($event)" (student)="receiveStudentDetails($event)"></app-child>
 </div>
 
 
