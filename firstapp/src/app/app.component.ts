@@ -11,10 +11,11 @@ import { DirectivesExampleComponent } from './directives-example/directives-exam
 import { SwitchexampleComponent } from './switchexample/switchexample.component';
 import { ParentComponent } from './parent/parent.component';
 import { AttributedirectivesComponent } from './attributedirectives/attributedirectives.component';
+import { ProfileComponent } from './profile/profile.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, AboutComponent, ContactusComponent, ProductComponent,CategoryComponent,DataBindingComponent,AdditionComponent,PipesExamplesComponent,DirectivesExampleComponent,SwitchexampleComponent,ParentComponent,AttributedirectivesComponent],
+  imports: [RouterOutlet, AboutComponent, ContactusComponent, ProductComponent,CategoryComponent,DataBindingComponent,AdditionComponent,PipesExamplesComponent,DirectivesExampleComponent,SwitchexampleComponent,ParentComponent,AttributedirectivesComponent,ProfileComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
